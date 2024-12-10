@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "VB6R4V6CHB.com.spideyDev.fantavacanze",
+        "paths": ["/auth/*"]
+      }
+    ]
+  }
+}

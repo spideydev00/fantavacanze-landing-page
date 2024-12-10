@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.spideyDev.fantavacanze",
+        "sha256_cert_fingerprints": [
+          "4C:DB:1E:66:77:15:AA:1E:FE:DD:17:AB:3B:00:94:76:40:85:6A:6B:03:C1:76:F7:79:11:BF:B9:E6:17:52:E4"
+        ]
+      }
+    }
+  ]
+  
