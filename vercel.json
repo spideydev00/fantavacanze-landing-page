@@ -14,10 +14,12 @@
       },
       {
         "rewrites": [
-          { "source": "/(.*)", "destination": "/$1.html" }
+          {
+            "source": "/:path*",
+            "destination": "/:path*.html"
+          }
         ]
-      }
-      
+      }          
     ]
   }
   
