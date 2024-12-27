@@ -1,0 +1,99 @@
+/* Importa il font Numans */
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+
+/* Stile globale per il corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Numans', sans-serif;
+    background: url('images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Contenitore principale */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Contenuto con sfondo semi-trasparente */
+.content {
+    background: rgba(0, 0, 0, 0.5); /* Nero leggermente trasparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Titoli */
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+/* Paragrafi e liste */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Stile per i link */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Regole responsive */
+
+/* Per schermi piccoli (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p, ul {
+        font-size: 1rem;
+    }
+}
+
+/* Per tablet (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p, ul {
+        font-size: 1.1rem;
+    }
+}
