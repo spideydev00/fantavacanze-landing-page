@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Supporto - Fantavacanze</title>
+    <link rel="stylesheet" href="assets/css/policy-styles.css">
+    <style>
+        /* Stili aggiuntivi per il form di supporto */
+        .support-form {
+            margin-top: 20px;
+        }
+
+        .support-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .support-form input[type="text"],
+        .support-form input[type="email"],
+        .support-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        .support-form textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .support-form button {
+            background-color: #b04848;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .support-form button:hover {
+            background-color: #903030;
+        }
+
+        /* Responsive adjustments per il form */
+        @media screen and (max-width: 600px) {
+            .support-form input[type="text"],
+            .support-form input[type="email"],
+            .support-form textarea {
+                font-size: 0.9rem;
+            }
+            .support-form button {
+                font-size: 1rem;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="images/logo.png" alt="Fantavacanze Logo" class="logo">
+            <h1>Contatta il Supporto</h1>
+
+            <p>Hai riscontrato un problema con l'app o hai bisogno di assistenza? Compila il modulo sottostante per inviarci un messaggio. Faremo del nostro meglio per risponderti il prima possibile.</p>
+            
+            <form class="support-form" action="mailto:fantavacanze@gmail.com" method="POST" enctype="text/plain">
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">La tua Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="subject">Oggetto:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div>
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Invia Messaggio</button>
+                </div>
+            </form>
+            <br />
+            <br />
+            <h2>Informazioni di Contatto Alternative</h2>
+            <p>Se preferisci, puoi anche contattarci direttamente via email:</p>
+            <p><strong>Email:</strong> <a class="mail-link" href="mailto:supporto@fantavacanze.it">supporto@fantavacanze.it</a></p>
+                    </div>
+    </div>
+</body>
+
+</html>
